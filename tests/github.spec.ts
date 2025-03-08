@@ -27,8 +27,8 @@
 
 // When you again started working on some other feature
 
-// 1. Inside the local system move to the main branch - [git checkout mainbranchname]
-// 2. Pull the latest changes from the main branch to your local system. - git pull
+// 1. Inside the local system move to the master branch - [git checkout mainbranchname]
+// 2. Pull the latest changes from the master branch to your local system. - git pull
 // 3. Create a new branch in the local git - [git checkout -b newbranch]
 // 4. Make changes in the local git - newbranch
 // 5. Commit the changes in the local git - newbranch
