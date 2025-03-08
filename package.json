@@ -1,0 +1,27 @@
+{
+  "name": "pwtsfesto2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "fullTest": "npx playwright test",
+    "smokeTest": "npx playwright test --grep @smoke",
+    "regressionTest": "npx playwright test --grep @regression",
+    "smokeAndRegression": "npx playwright test --grep (?=.*@smoke)(?=.*@regression)",
+    "exceptSmoke": "npx playwright test --grep-invert @smoke",
+    "specificFileRun": "npx playwright test tests/UIBasics.spec.ts --grep @smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1",
+    "allure-commandline": "^2.33.0",
+    "allure-playwright": "^3.2.0"
+  },
+  "dependencies": {
+    "pwtsfesto2025": "file:",
+    "xlsx": "^0.18.5"
+  }
+}
