@@ -13,7 +13,7 @@
 // When we are working on existing repo
 
 // 1. Clone the repo inside our local system
-// 2. Create a new branch in the local git - LoginPage (branchname)
+// 2. Create a new branch in the local git - LoginPage (branchname) - git checkout -b "LoginPage"
 // 3. Make changes in the local git - LoginPage (branchname)
 // 4. Commit the changes in the local git - LoginPage (branchname)
     //1. git add . - Add all the changes to the local git
